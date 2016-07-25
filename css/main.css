@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* GENERAL */
+
+html, body {
+	min-width: 800px;
+}
+
+html, samp, body, h1, h2, h3, h4, h5, h6, textarea, select {
+	font-family: 'Noto-Sans KR', sans-serif;
+}
+
+/*
+ *
+ * MAIN-BAR
+ *
+ */
+
+/* MAIN-BAR GENERAL */
+.main-bar {
+	padding: 30px 150px;
+	border-bottom: 1px solid lightgray;
+}
+
+.main-bar .menu-item {
+	border-left: 1px solid white;
+}
+
+.main-bar, .main-bar ul {
+	background-color: white;
+}
+
+/* MAIN-BAR FONT */
+.main-bar .menu-item a {
+	font-size: 16px;
+	color: gray;
+}
+
+/*
+ *
+ * SUB-BAR
+ *
+ */
+
+/* SUB-BAR GENERAL */
+.sub-bar {
+	display: none;
+	padding: 5px 150px;
+	border-bottom: 1px solid lightgray;
+}
+
+.sub-bar, .sub-bar ul {
+	background-color: white;
+}
+
+/* SUB-BAR FONT */
+.sub-bar .menu-item a {
+	font-size: 14px;
+	color: gray;
+}
